@@ -67,12 +67,3 @@ image with 300 dpi
 ```javascript
 writeMetadata(buffer, metadata);
 ```
-
-### save image from canvas
-
-```javascript
-canvas.toBlob((blob) => {
-  let newBlob = fabric.util.png.writeMetadataB(blob, metadata);
-  saveAs(newBlob, title);
-});
-```

@@ -1,5 +1,5 @@
 {
-  "name": "png-metadata",
+  "name": "@nashiinc/png-metadata",
   "version": "1.0.0",
   "description": "library to read and write PNG Metadata",
   "main": "index.js"
