@@ -2,5 +2,9 @@
   "name": "@nashiinc/png-metadata",
   "version": "1.0.0",
   "description": "library to read and write PNG Metadata",
-  "main": "index.js"
+  "main": "index.js",
+  "repository": "git://github.com/nashiinc/png-metadata.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
